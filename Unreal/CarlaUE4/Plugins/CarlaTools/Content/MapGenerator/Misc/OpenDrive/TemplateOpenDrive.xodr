@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenDRIVE>
     <header revMajor="1" revMinor="4" name="" version="1" date="2021-11-22T12:10:12" north="2.3500000000000000e+1" south="-5.0000000000000000e+1" east="4.9369998931884766e+1" west="-5.0000000000000000e+1" vendor="MathWorks">
+    #文件的创造日期，地图的各个边界坐标，文件的创造者
         <userData>
             <vectorScene program="RoadRunner" version="R2021a Update 1 (1.2.1.b9925774f)"/>
         </userData>
