@@ -8,10 +8,12 @@
     </header>
     <road name="Road 0" length="2.1500000153208116e+1" id="0" junction="-1">
         <link>
-            <successor elementType="junction" elementId="3"/>
+            <successor elementType="junction" elementId="3"/>#道路的下一个元素是交汇点，id为3
         </link>
         <type s="0.0000000000000000e+0" type="town">
+     #道路的类型定义
             <speed max="35" unit="mph"/>
+    #道路的最大限速为35英里每小时
         </type>
         <planView>
             <geometry s="0.0000000000000000e+0" x="0.0000000000000000e+0" y="-3.0000000000000000e+1" hdg="1.5707963267948966e+0" length="2.1500000153208116e+1">
