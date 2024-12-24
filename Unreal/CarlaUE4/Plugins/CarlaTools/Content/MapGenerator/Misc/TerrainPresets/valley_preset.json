@@ -1,30 +1,80 @@
 {
+	// 预设名称
 	"presetName": "Valley",
+	
+	// 小部件状态，这里主要包含了地形的生成参数
 	"widgetState":
 	{
+		// 是否是持久状态，false表示不是
 		"isPersistentState": false,
+		
+		// 地图名称，此处为空
 		"mapName": "",
+		
+		// 工作路径，此处为空
 		"workingPath": "",
+		
+		// 当前激活的标签名称，此处为空
 		"activeTabName": "",
+		
+		// 地形整体尺寸，此处为0，可能表示使用默认值或未设置
 		"terrainGeneralSize": 0,
+		
+		// 地形整体坡度，范围在0到1之间，0.54表示中等坡度
 		"terrainGeneralSlope": 0.54000002145767212,
+		
+		// 地形整体高度基础值，用于调整整体高度
 		"terrainGeneralHeight": 0.10000000149011612,
+		
+		// 地形最小高度值，用于控制地形最低点的高度
 		"terrainGeneralMinHeight": 0.20000000298023224,
+		
+		// 地形最大高度值，用于控制地形最高点的高度
 		"terrainGeneralMaxHeight": 1,
+		
+		// 地形整体反转值，用于调整地形的高低反转效果，-0.1表示轻微反转
 		"terrainGeneralInvert": -0.1,
+		
+		// 地形整体种子值，用于生成随机地形，确保每次生成的地形具有随机性但可重复
 		"terrainOverallSeed": 900.00018310546875,
+		
+		// 地形整体缩放比例
 		"terrainOverallScale": 22,
+		
+		// 地形整体坡度调整，影响整体地形的倾斜程度
 		"terrainOverallSlope": 10,
+		
+		// 地形整体高度，控制整体地形的高度范围
 		"terrainOverallHeight": 6.6999998092651367,
+		
+		// 地形整体最小高度值，通常用于限制地形高度的下限
 		"terrainOverallMinHeight": 1,
+		
+		// 地形整体最大高度值，通常用于限制地形高度的上限
 		"terrainOverallMaxHeight": 1,
+		
+		// 地形整体反转值，用于调整地形的高低反转效果，-0.3表示更强的反转效果
 		"terrainOverallInvert": -0.3,
+		
+		// 地形详细种子值，用于生成更精细的地形细节
 		"terrainDetailedSeed": 89,
+		
+		// 地形细节缩放比例
 		"terrainDetailedScale": 21,
+		
+		// 地形细节坡度调整，影响地形细节部分的倾斜程度
 		"terrainDetailedSlope": 5.4000000953674316,
+		
+		// 地形细节高度，控制地形细节部分的高度范围
 		"terrainDetailedHeight": 2.5999999046325684,
+		
+		// 地形细节最小高度值，用于限制地形细节部分高度的下限
 		"terrainDetailedMinHeight": 0.014999999664723873,
+		
+		// 地形细节最大高度值，用于限制地形细节部分高度的上限
 		"terrainDetailedMaxHeight": 1,
+		
+		// 地形细节反转值，用于调整地形细节部分的高低反转效果，0.5表示中等反转效果
 		"terrainDetailedInvert": 0.5
 	}
 }
