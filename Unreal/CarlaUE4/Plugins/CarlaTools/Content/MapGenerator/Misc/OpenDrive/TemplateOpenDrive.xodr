@@ -28,20 +28,20 @@
             <shape s="0.0000000000000000e+0" t="-3.5000000000000000e+0" a="0.0000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>
         </lateralProfile>
         <lanes>
-            <laneOffset s="0.0000000000000000e+0" a="0.0000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>
-            <laneSection s="0.0000000000000000e+0" singleSide="false">
+            <laneOffset s="0.0000000000000000e+0" a="0.0000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>#车道偏移量，此处数据为0代表没有偏移
+            <laneSection s="0.0000000000000000e+0" singleSide="false">#车道段信息开始，s=0表示起始位置，singleside=false表示不是单行道
                 <left>
-                    <lane id="1" type="driving" level="false">
-                        <width sOffset="0.0000000000000000e+0" a="3.5000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>
-                        <roadMark sOffset="0.0000000000000000e+0" type="none" material="standard" color="white" laneChange="none"/>
-                        <speed sOffset="0.0000000000000000e+0" max="3.5000000000000000e+1" unit="mph"/>
+                    <lane id="1" type="driving" level="false">#表示第一个车道，tpye表示为行车道
+                        <width sOffset="0.0000000000000000e+0" a="3.5000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>#车道宽度信息
+                        <roadMark sOffset="0.0000000000000000e+0" type="none" material="standard" color="white" laneChange="none"/>#道路标记信息
+                        <speed sOffset="0.0000000000000000e+0" max="3.5000000000000000e+1" unit="mph"/>#速度限制信息，最大速度为35mph
                         <userData>
-                            <vectorLane sOffset="0.0000000000000000e+0" laneId="{9e4a73a7-22fb-4721-9511-ac480394218b}" travelDir="backward"/>
+                            <vectorLane sOffset="0.0000000000000000e+0" laneId="{9e4a73a7-22fb-4721-9511-ac480394218b}" travelDir="backward"/>#用户自定义数据，这里指定了车道的ID和行驶方向为向后
                         </userData>
                     </lane>
                 </left>
                 <center>
-                    <lane id="0" type="none" level="false">
+                    <lane id="0" type="none" level="false">#中心车道信息，type="none"表示没有特定类型的车道
                         <roadMark sOffset="0.0000000000000000e+0" type="none" material="standard" color="white" laneChange="none"/>
                         <userData/>
                     </lane>
