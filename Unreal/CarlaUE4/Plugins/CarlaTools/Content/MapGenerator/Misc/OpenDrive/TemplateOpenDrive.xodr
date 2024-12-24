@@ -48,7 +48,7 @@
                 </center>
                 <right>
                     <lane id="-1" type="driving" level="false">
-                        <width sOffset="0.0000000000000000e+0" a="3.5000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>
+                        <width sOffset="0.0000000000000000e+0" a="3.5000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0"/>#车道宽度为3.5米，没有偏移
                         <roadMark sOffset="0.0000000000000000e+0" type="none" material="standard" color="white" laneChange="none"/>
                         <speed sOffset="0.0000000000000000e+0" max="3.5000000000000000e+1" unit="mph"/>
                         <userData>
@@ -56,7 +56,7 @@
                         </userData>
                     </lane>
                 </right>
-                <userData>
+                <userData>#自定义数据，指定了车道ID和行驶方向为向前
                     <vectorLaneSection>
                         <carriageway rightBoundary="-1" leftBoundary="1"/>
                     </vectorLaneSection>
@@ -64,14 +64,14 @@
             </laneSection>
         </lanes>
     </road>
-    <road name="Road 1" length="2.1500000000000000e+1" id="1" junction="-1">
+    <road name="Road 1" length="2.1500000000000000e+1" id="1" junction="-1">#连接信息，指定了下一个元素是编号为3的节点
         <link>
             <successor elementType="junction" elementId="3"/>
         </link>
-        <type s="0.0000000000000000e+0" type="town">
+        <type s="0.0000000000000000e+0" type="town">#道路类型信息，指定为城镇道路，速度限制为35mph
             <speed max="35" unit="mph"/>
         </type>
-        <planView>
+        <planView>#平面视图信息，描述了道路的几何形状和位置
             <geometry s="0.0000000000000000e+0" x="-3.0000000000000000e+1" y="0.0000000000000000e+0" hdg="0.0000000000000000e+0" length="2.1500000000000000e+1">
                 <line/>
             </geometry>
